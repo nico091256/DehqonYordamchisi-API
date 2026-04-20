@@ -1,1 +1,0 @@
-{"version":3,"file":"favoriteRoutes.js","sourceRoot":"","sources":["../../src/routes/favoriteRoutes.ts"],"names":[],"mappings":";;AAAA,qCAAiC;AACjC,0EAAmF;AACnF,iEAA4D;AAE5D,MAAM,MAAM,GAAG,IAAA,gBAAM,GAAE,CAAC;AAExB,MAAM,CAAC,GAAG,CAAC,6BAAY,CAAC,CAAC;AAEzB,MAAM,CAAC,IAAI,CAAC,SAAS,EAAE,mCAAc,CAAC,CAAC;AACvC,MAAM,CAAC,GAAG,CAAC,GAAG,EAAE,mCAAc,CAAC,CAAC;AAEhC,kBAAe,MAAM,CAAC"}

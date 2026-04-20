@@ -3,7 +3,7 @@ import { body } from 'express-validator';
 export const registerValidator = [
   body('name').notEmpty().withMessage('Name is required').trim(),
   body('phone')
-    .matches(/^\+998\d{9}$/)
+    .matches(/^\+998\s?\d{2}\s?\d{3}\s?\d{2}\s?\d{2}$|^\+998\d{9}$/)
     .withMessage('Phone number must be in format +998XXXXXXXXX'),
   body('password')
     .isLength({ min: 6 })
