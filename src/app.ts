@@ -8,6 +8,7 @@ import orderRoutes from './routes/orderRoutes';
 import favoriteRoutes from './routes/favoriteRoutes';
 import adminRoutes from './routes/adminRoutes';
 import uploadRoutes from './routes/uploadRoutes';
+import aiRoutes from './routes/aiRoutes';
 import path from 'path';
 import { setupSwagger } from './config/swagger';
 
@@ -28,6 +29,7 @@ app.use('/api/orders', orderRoutes);
 app.use('/api/favorites', favoriteRoutes);
 app.use('/api/admin', adminRoutes);
 app.use('/api/upload', uploadRoutes);
+app.use('/api/ai', aiRoutes);
 
 // Swagger Documentation
 setupSwagger(app);
